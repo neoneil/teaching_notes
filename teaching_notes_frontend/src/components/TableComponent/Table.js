@@ -1,5 +1,5 @@
 import React, { useState } from "react";
-import './Home.scss'
+import '../Home/Home.scss'
 import useTable from "./useTable";
 import TableFooter from "./TableFooter";
 

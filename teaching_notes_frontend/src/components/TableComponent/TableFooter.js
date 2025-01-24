@@ -1,5 +1,5 @@
 import React, { useEffect } from "react";
-import './Home.scss'
+import '../Home/Home.scss'
 
 const TableFooter = ({ range, setPage, page, slice }) => {
   useEffect(() => {
