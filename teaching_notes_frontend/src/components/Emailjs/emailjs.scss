@@ -1,0 +1,33 @@
+@import '../../App.scss';
+.buttonStyle{
+  @include buttonStyle;
+}
+
+.container-fluid {
+    background-color:$back-ground-deeper-color;
+    border-radius: 0.375em;
+}
+
+.responseStyle{
+  color: $card-color;
+  font-size: large;
+}
+
+.form-text{
+  color: black;
+}
+
+.form-control, .form-select:focus {
+  border: none !important;
+  outline: none !important;
+  box-shadow: none !important;// dont forget this one as it is the one which shows that blue shadow when typing
+  &:hover{
+    color:black;
+    // background-color: $card-color;
+    cursor: pointer;
+}
+}
+.col{
+  margin-top:3%;
+  margin-bottom:3%;
+}

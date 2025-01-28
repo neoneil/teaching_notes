@@ -1,0 +1,45 @@
+@import '../../App.scss';
+.buttonStyle{
+  @include buttonStyle;
+}
+
+.accordion-title{
+  font-size: larger;
+  display: flex;
+  justify-content: space-between;
+  padding: 1% 2% 1% 2%;
+  background-color: $back-ground-color;
+  &:hover{
+    cursor:s-resize;
+  }
+
+}
+.title{
+ font-size: larger;
+}
+
+.icon{
+  font-size: larger;
+}
+.accordion-content{
+  //animation: wobble 1s 1; 
+  padding:2%;
+  text-align: left;
+  opacity: 1;
+
+}
+
+@keyframes wobble {
+  25% {
+    transform: rotate(5deg);
+  }
+  50% {
+    transform: rotate(-5deg);
+  }
+  75% {
+    transform: rotate(5deg);
+  }
+  100% {
+    transform: rotate(0deg);
+  }
+}

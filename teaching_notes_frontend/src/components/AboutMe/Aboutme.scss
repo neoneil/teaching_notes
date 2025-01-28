@@ -1,0 +1,42 @@
+@import '../../App.scss';
+
+.buttonStyle {
+    @include buttonStyle;
+}
+
+.container{
+    display: flex;
+    justify-content: center;
+    height: 340px;
+    margin-top: 3%;
+
+}
+.row{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    img{
+        max-width: 100%;
+    }
+}
+.personalCard {
+    border-radius: .2em;
+    img {
+        border-radius: .2em;
+        max-width: 90%;
+        margin:1%;
+    }
+
+    // background-image: url(../../../public/businessCard.png);
+    // background-size:cover;
+
+}
+
+.wechatQRcode {
+    margin: 1%;
+    // background-color: rgb(230, 203, 171);
+    text-align: left;
+    font-size: medium;
+    font-weight: 600;
+    
+}

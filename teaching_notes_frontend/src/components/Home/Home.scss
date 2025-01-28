@@ -82,20 +82,27 @@
   color: grey;
 }
 //////////////////////
-.container {
-  // background-color: rgb(86, 75, 75);
-  display: flex;
-  justify-content: center;
-  //align-items: center; // vertical 
+.changeMargin{
   margin-top:1%;
+}
+// .container {
+//   // background-color: rgb(86, 75, 75);
+//   display: flex;
+//   justify-content: center;
+//   //align-items: center; // vertical 
+//   margin-top:1%;
   
-  // height: 100vh;
-  // width: 100vw;
-}
-
-// .wrapper {
-//   width: 600px;
+//   // height: 100vh;
+//   // width: 100vw;
 // }
-.col{
-  padding:1%;
-}
+
+// // .wrapper {
+// //   width: 600px;
+// // }
+// .green{
+//   background-color: green;
+// }
+
+// .yellow{
+//   background-color: yellow;
+// }
