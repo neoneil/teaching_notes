@@ -9,6 +9,7 @@
   justify-content: space-between;
   padding: 1% 2% 1% 2%;
   background-color: $back-ground-color;
+  border: solid 0.5px grey;
   &:hover{
     cursor:s-resize;
   }
@@ -17,22 +18,31 @@
 .title{
  font-size: larger;
 }
-
+.h3style{
+  margin:2% 2% 2% 2%;
+}
 .icon{
   font-size: larger;
 }
 .accordion-content{
   // animation: wobble 1s ease; 
-  padding:2%;
+  padding:1% 1% 1% 1%;
   text-align: left;
   opacity: 1;
+  font-size: large;
   // color:blue;
   white-space:pre-wrap; 
   word-wrap:break-word;
   font-weight:bold;
 
 }
-
+.red{
+  color:rgb(235, 13, 13);
+}
+.bold{
+  font-weight: bold;
+  font-size:larger;
+}
 @keyframes wobble {
   25% {
     transform: rotate(5deg);
@@ -52,4 +62,33 @@
     bottom: 20px;
     opacity:1;
   }
+}
+
+#tenses {
+  font-family: Arial, Helvetica, sans-serif;
+  border-collapse: collapse;
+  width: 100%;
+}
+
+#tenses td, #tenses th {
+  border: 1px solid #ddd;
+  padding: 8px;
+}
+
+#tenses tr:nth-child(even){background-color: #f2f2f2;}
+
+#tenses tr:hover {background-color: #ddd;}
+
+#tenses th {
+  padding-top: 12px;
+  padding-bottom: 12px;
+  text-align: left;
+  background-color: #04AA6D;
+  color: white;
+  text-align: center;
+}
+.tableMargin{
+  margin-top:1%;
+  margin-bottom:1%;
+  text-align: center;
 }

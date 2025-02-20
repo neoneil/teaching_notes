@@ -6,6 +6,7 @@ import {Route, Routes} from 'react-router-dom'
 import Home from './components/Home/Home'
 import Emailjs from './components/Emailjs/emailjs'
 import Syllabus from './components/PTEsyllabus/Pte'
+import WordsAndGrammar from './components/WordsAndGrammar/WordsAndGrammar'
 function App() {
   return (
     <div className="">
@@ -13,6 +14,7 @@ function App() {
         <Route path='/' element={<Home/>} />
         <Route path='/emailjs' element={<Emailjs/>} />
         <Route path='/exams' element={<Syllabus/>} />
+        <Route path='/wordsandgrammar' element={<WordsAndGrammar/>} />
       </Routes>
     </div>
   );

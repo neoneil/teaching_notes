@@ -8,7 +8,7 @@ const Aboutme = () => {
   现任澳洲英语培训中心主讲教师
   Thomas老师本科学习英文专业 
   后在澳洲大学攻读人工智能硕士研究生
-  同时在墨尔本人工智能私企任职
+  同时在澳洲人工智能私企任职
   熟知PTE的Intelligent Essay Assessor™(IEA)机器阅卷规则。
 
       Thomas 老师的第一次试听课是免费的，
